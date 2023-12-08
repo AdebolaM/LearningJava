@@ -21,9 +21,9 @@ public class SeleniumWebSignupTest {
         //click on Sign up button
         driver.findElement(By.xpath("/html/body/div[2]/div/a[2]")).click();
         //input your username on the username field
-        driver.findElement(By.id("user_username")).sendKeys("Adebola11");
+        driver.findElement(By.id("user_username")).sendKeys("Adebola111");
         //Input your email in email field
-        driver.findElement(By.id("user_email")).sendKeys("ajoke.oritu@yahoo.com");
+        driver.findElement(By.id("user_email")).sendKeys("ajoke.ritu@yahoo.com");
         //input your password
         driver.findElement(By.id("user_password")).sendKeys("Adebola101");
         //click on  sign up button
